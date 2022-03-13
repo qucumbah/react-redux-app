@@ -6,7 +6,7 @@ import useStringItems from '../../hooks/useStringItems';
 
 import AddButton from '../AddButton';
 
-import './SearchInput.module.css';
+import './SearchInput.css';
 
 /**
  * Search input that contains a button for adding string to the list.
