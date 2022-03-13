@@ -1,0 +1,33 @@
+{
+  "name": "single-page-application",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.53.0",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-redux": "^7.1.23",
+    "@types/uuid": "^8.3.4",
+    "@vitejs/plugin-react": "^1.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2",
+    "vite": "^2.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.29.3"
+  }
+}
